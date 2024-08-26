@@ -80,7 +80,7 @@ apiPost.delete('/post/:id', (req, res) => {
   }
 
   postsList.splice(postIndex, 1);
-  res.status(204).send();
+  res.json({ message: 'Postagem excluída com sucesso'}).send();
 });
 
 app.use(apiPost)
