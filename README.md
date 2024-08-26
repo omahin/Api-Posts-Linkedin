@@ -170,19 +170,19 @@ O servidor será iniciado na porta `3333`, conforme configurado.
      "author": "Autor Exemplo"
    }
    ```
-   ![POST Success](media\post.png)
+   ![POST Success](./media/post.png)
 
 2. **Listar todas as postagens**:  
    - Método: `GET`  
    - URL: `http://localhost:3333/posts`
 
-   ![GET Success](media\getall.png)
+   ![GET Success](./media/getall.png)
 
 3. **Listar uma postagem específica**:  
    - Método: `GET`  
    - URL: `http://localhost:3333/post?id=uuid-gerado`
 
-    ![GET Success](media\getspecific.png)
+    ![GET Success](./media/getspecific.png)
 
 4. **Editar uma postagem**:  
    - Método: `PATCH`  
@@ -194,13 +194,13 @@ O servidor será iniciado na porta `3333`, conforme configurado.
      "author": "Novo Autor"
    }
    ```
-    ![PATCH Success](media\patch.png)
+    ![PATCH Success](./media/patch.png)
 
 5. **Excluir uma postagem**:  
    - Método: `DELETE`  
    - URL: `http://localhost:3333/post/uuid-gerado`
 
-    ![DELETE Success](media\delete.png)
+    ![DELETE Success](./media/delete.png)
 
 ## 💬 Entre em contato!
 
